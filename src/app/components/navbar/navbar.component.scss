@@ -1,0 +1,50 @@
+.main__nav{
+  background-color: #010204;
+  padding: 1rem 0;
+}
+
+.nav__menu{
+    a{
+      color: #ffffff;
+      font-size: 1.1rem;
+    }
+
+    .navbar-nav{
+      .nav-item{
+        margin: 0.3125;
+      }
+    }
+}
+
+.dropdown:hover>.dropdown-menu{
+  display: block;
+  margin-top: 0;
+  transition: 0.5s;
+  padding: 0;
+}
+
+.dropdown>.dropdown-menu>a{
+  transition: 0.3s;
+  color: #010204;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.dropdown-menu>a:hover{
+  background-color: #1E2029;
+  color: #ffffff!important;
+}
+
+.discord--btn{
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #F5FF27;
+  margin-left: 30px;
+  transition: 0.5s;
+}
+
+.discord--btn:hover{
+  background: #ffffff;
+}
+
+

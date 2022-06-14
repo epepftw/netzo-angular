@@ -1,0 +1,23 @@
+<div class="container p-5 my-5">
+  <div class="row align-items-center">
+    <div class="col-lg-6">
+      <img src="../../../assets/images/netzo-img03.png" alt="">
+    </div>
+    <div class="col-lg-6">
+      <div class="why__us__contents">
+        <h6>WHY NETZO</h6>
+        <h2>Let’s build the future of digital economies together</h2>
+        <p class="sec2__testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <div class="d-flex py-3" *ngFor="let w of why_us">
+          <div class="mr-2">
+            <i class="{{ w.logo }}"></i>
+          </div>
+          <div>
+            <h4>{{ w.title }}</h4>
+            <p>{{ w.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

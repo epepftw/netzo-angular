@@ -1,0 +1,20 @@
+.rcdt-card {
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  display: flex;
+  width: 100%;
+  color: #fff;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  background-color: #1E2029;
+
+
+  .cont{
+      h2{
+        color: #fff;
+        text-shadow: 0 3px 6px rgba(0,0,0,0.16);
+        font-size: 54px;
+    }
+  }
+
+
+}

@@ -1,0 +1,16 @@
+<app-banner></app-banner>
+
+<div class="container">
+  <div class="row">
+    <div class="card--contents col-lg-12 d-flex">
+      <div class="card--data col-lg-3" *ngFor="let c of card_data_sample">
+        <app-card
+        [digit]="c.digit"
+        [description]="c.description">
+        </app-card>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-home-sec2></app-home-sec2>

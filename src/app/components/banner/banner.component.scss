@@ -1,0 +1,48 @@
+.homepage{
+  background-image:  linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ), url('../../../assets/images/netzo-img02.png');
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  padding: 7rem 0;
+
+  .banner--content{
+    background: linear-gradient(225deg, #050405dc, #0504067c);
+    box-shadow:  -5px 5px 15px #030203,
+             5px -5px 15px #070609;
+    color: #ffffff;
+    padding: 3rem;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+
+    h1{
+      font-size: 54px;
+    }
+
+    p{
+      width: 90%;
+      font-size: 14px;
+    }
+
+    .banner--btn{
+      padding: 10px 20px;
+      border-radius: 25px;
+      background-color: #F5FF27;
+      transition: 0.5s;
+
+      span{
+        padding-left: 10px;
+      }
+    }
+
+    .banner--btn:hover{
+      background: #ffffff;
+    }
+  }
+
+  .banner--img{
+    height: 400px;
+  }
+}
