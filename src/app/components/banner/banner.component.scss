@@ -45,4 +45,24 @@
   .banner--img{
     height: 400px;
   }
+
+  .carousel-fade {
+    .carousel-inner {
+        .carousel-item {
+            transition-property: opacity;
+        }
+
+        .carousel-item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+      }
+    }
 }
